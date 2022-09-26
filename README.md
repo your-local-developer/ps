@@ -1,6 +1,8 @@
 # Personal Powershell Scripts 🤫🦾
 
-## Install 📦
+## Restart-WSL ⚡🔌
+
+### Install 📦
 
 ```powershell
 cd ~\Documents\Powershell\Scripts
@@ -14,7 +16,7 @@ git clone "https://github.com/your-local-developer/ps.git"
 Write-Output `n '. "$(Join-Path $PSScriptRoot "Scripts" "ps" "scripts" "restart_wsl.ps1")"' >> $PROFILE
 ```
 
-## Usage 🚀
+### Usage 🚀
 
 ```powershell
 Restart-WSL
