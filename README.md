@@ -4,9 +4,14 @@
 
 ```powershell
 cd ~\Documents\Powershell\Scripts
+```
+
+```powershell
 git clone "https://github.com/your-local-developer/ps.git"
-Write-Output '
-∙ "$(Join-Path $PSScriptRoot "Scripts" "ps" "scripts" "restart_wsl.ps1")"' >> $PROFIL
+```
+
+```powershell
+Write-Output `n '. "$(Join-Path $PSScriptRoot "Scripts" "ps" "scripts" "restart_wsl.ps1")"' >> $PROFILE
 ```
 
 ## Usage 🚀
